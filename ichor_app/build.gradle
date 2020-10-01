@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.io.hydroalert.alert_app"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 10
+        versionName "3.6"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // BY DEFAULT, BUILD APP AGAINST THE LOCAL SDK SOURCE
+    // (i.e.: make modifications to the SDK source in the local repo show up in this app
+    // just by rebuilding)
+    compile project(':cloudsdk')
+    //
+    // **OR**
+    //
+    // comment out the above, and
+    // UNCOMMENT THE FOLLOWING TO USE A PUBLISHED VERSION OF THE SDK:
+    //    compile 'io.particle:cloudsdk:0.3.3'
+
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.android.support:support-fragment:24.2.0'
+    compile 'com.android.support:design:24.2.1'
+    // Add to the bottom of the file
+   apply plugin: 'com.google.gms.google-services'
+
+}
+

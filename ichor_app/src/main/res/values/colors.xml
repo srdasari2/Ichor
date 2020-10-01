@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--srd <color name="app_color">#448aff</color>-->
+    <color name="app_color">#000000</color>
+    <color name="app_color_light">#86448aff</color>
+    <color name="text_color_device_name">#2B3D4D</color>
+    <color name="devie_list_background">#84FFFF</color>
+    <color name="list_item_color">#FFFFFF</color>
+    <color name="device_online">#4CAF50</color>
+    <color name="device_offline">#9E9E9E</color>
+       <color name="title_color">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+    <color name="primary_color">#045e48</color>
+    <color name="refresh_color">#21d3a7</color>
+
+</resources>

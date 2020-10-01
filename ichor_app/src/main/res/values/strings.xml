@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GlycosaMonitor</string>
+
+    <string name="hello_world">Splash!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login</string>
+    <string name="title_activity_value">ValueActivity</string>
+    <!-- Encrypted username and password-->
+    <string name="cipher_password"> "ThisisTestPwd12345$!@@@"</string>
+    <string name="deviceid">28001b000f47343432313031</string>
+    <string name="variableName">in</string>
+    <string name="flood_warning_title">Flood Warning</string>
+    <string name="flood_watch_title">Flood Watch</string>
+</resources>

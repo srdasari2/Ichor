@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "323670614474",
+    "firebase_url": "https://hydroalert-d47a3.firebaseio.com",
+    "project_id": "hydroalert-d47a3",
+    "storage_bucket": "hydroalert-d47a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323670614474:android:dda3318746a238d6",
+        "android_client_info": {
+          "package_name": "com.io.hydroalert.alert_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323670614474-q1rc2ve2c4goqgffe70g11qr7bng408g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOXgqXPds0nlmqUDKmDKk2F5UA7sfNcV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

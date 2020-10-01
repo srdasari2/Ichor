@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.particle.hydroalert">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!--
+     icon : App Icon
+          Label : Title
+          Themse: style
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/glycosa_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- Each activity is a screen/page -->
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SummaryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListActivity"></activity>
+        <!--srd <activity android:label="Locations" android:name=".ListActivity">t</activity> -->
+        <activity android:label="Glucometer List" android:name=".ListActivity">t</activity> <!--srd-->
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="hydroactionbar" parent= "@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@color/app_color</item>
+        <item name="elevation">0dp</item>
+        </style>
+    <style name="textstyle" parent="TextAppearance.AppCompat">
+
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+    <style name="listItemStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/primary_color</item>
+            <item name="colorPrimaryDark">@color/primary_dark_color</item>
+            <item name="actionBarStyle">@style/hydroactionbar</item>
+            <item name="android:windowContentOverlay">@null</item>
+
+        </style>
+        <!-- App bar style -->
+        <style name="MiwokActionBarStyle" parent ="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+            <item name="android:background">@color/primary_dark_color</item>
+            <item name ="elevation"> 0dp</item>
+        </style>
+
+
+
+</resources>

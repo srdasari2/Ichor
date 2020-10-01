@@ -1,0 +1,37 @@
+0.3.4
+=====
+* fix an uncommon crasher bug
+* Use a much smarter config for building internal executor
+* Add (non-public, "preview") API for fetching ParticleDevices in parallel
+
+
+0.3.3
+=====
+* Fix for #7 to make subscribing to events for individual devices work again; thanks 
+  to reddigfabian for the PR.
+
+
+0.3.2
+=====
+* Electron support!
+* Use SharedPreferences.apply() instead of .commit() for an easy perf boost
+* Code cleanups, including switching to @ParametersAreNonnullByDefault
+
+
+0.3.1
+=====
+* Workaround for lame 3rd party packaging problems
+* Update GSON dependency
+
+
+0.3.0
+======
+* At last, event pub/sub support!
+
+
+0.2.2
+======
+* Fix `getVariable()` call by adding type-safe methods for getting variables of each supported type
+* Expose the "last heard" info for `ParticleDevice`s
+
+
